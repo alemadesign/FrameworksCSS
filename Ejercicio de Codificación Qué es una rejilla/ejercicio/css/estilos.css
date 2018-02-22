@@ -1,0 +1,38 @@
+*{
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: pink;
+}
+
+header{
+  width: 100;
+  background-color: lime;
+  height: 4%;
+}
+
+h1{
+  text-align: center;
+}
+
+section{
+  width: 80%;
+  background-color: brown;
+}
+
+img{
+  width: 33%;
+}
+
+div{
+  width: 33%;
+  background-color: gray;
+}
+
+#contenedor{
+display: flex;
+-webkit-flex-flow: row wrap;
+flex-flow: row wrap;
+}
