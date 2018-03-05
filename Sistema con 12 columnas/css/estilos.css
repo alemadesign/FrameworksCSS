@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
 html {
     font-family: "Lucida Sans", sans-serif;
 }
@@ -9,26 +12,39 @@ html {
     clear: both;
     display: block;
 }
+.row{
+  border: 3px solid purple;
+}
 [class*="col-"] {
     float: left;
-    padding: 25px;
-    border: 1px solid black;
+    padding: 20px;
+    border: 3px solid lime;
 }
-.col-1 {width: 8.33%;}
+
+.col-1 {width: 8.33%;
+  background-color: blue;
+
+}
 .col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
+.col-3 {width: 25%;
+background-color: red;}
+.col-4 {width: 33.33%;
+background-color: brown;}
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
 .col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
+.col-8 {width: 66.66%;
+background-color: pink;
+}
+.col-9 {width: 75%;
+background-color: yellow;}
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-12 {width: 100%;
+background-color: grey;}
 
 .contenedor{
-  width: 70%;
+  width: 60%;
   margin: 60px auto;
   border: 3px solid red;
   padding: 5px;

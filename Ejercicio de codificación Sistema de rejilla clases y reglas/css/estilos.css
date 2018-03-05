@@ -1,0 +1,17 @@
+.cinema-body{
+	background: gray;
+}
+
+.navbar{
+	min-height: 10%;
+	background: pink;
+}
+.container{
+	margin-top: 64px;
+}
+.jumbotron{
+	background: red;
+	min-height: 500px;
+	margin-bottom: 0px;
+	border-radius: 0px !important;
+}
