@@ -1,17 +1,48 @@
+/*Estilo para body*/
 .cinema-body{
 	background: gray;
 }
-
+/*Estilo para barra de navegacion*/
 .navbar{
 	min-height: 10%;
 	background: pink;
 }
+/*estilo contenedor principal*/
 .container{
 	margin-top: 64px;
 }
+/*estilo para jumbotron*/
 .jumbotron{
 	background: red;
 	min-height: 500px;
 	margin-bottom: 0px;
 	border-radius: 0px !important;
+}
+/*estilo para titulo*/
+.titulo-cartelera{
+	min-height: 45px;
+	background: purple;
+}
+/*estilo para fila movie*/
+.movies-row{
+	background: green;
+	min-height: 350px;
+	padding: 0px 15px;
+}
+/*estilos para columnas en filas movie*/
+.movies-column{
+	margin-top: 5px;
+	background: yellow;
+	min-height: 330px;
+	border: 1px dotted black;
+}
+/*estilo para columna borde a la derecha*/
+.left-column{
+	border-right: 1px dotted black;
+}
+
+@media (max-width: 770px) {
+	.right-column{
+		display: none;
+	}
 }
