@@ -1,0 +1,12 @@
+.encabezado{
+  min-height: 4rem;
+}
+
+div[class*="columna"]{
+  min-height: 50rem;
+  border: 1px solid black;
+}
+
+div[class*="bloque"]{
+  min-height: 25rem;
+}
