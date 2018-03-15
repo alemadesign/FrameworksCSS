@@ -3,8 +3,30 @@
 }
 div[class*="columna"]{
   min-height: 50rem;
-  border: 1px solid #eceff1;
 }
 div[class*="bloque"]{
   height: 25rem;
+}
+.columna-chat, .columna-news{
+  padding: 0 !important;
+}
+.card-publicaciones{
+  min-height: 7rem;
+}
+.contenedor-publicaciones{
+  min-height: 17rem;
+  padding: 2rem;
+}
+.imagen-adaptativa{
+  margin-top: 0.5rem;
+  width: 43px;
+}
+.contenedor-noticias{
+  min-height: 50rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+.responsive-img{
+  border: 0.6rem solid #ff8f00;
+  border-radius: 5px;
 }
